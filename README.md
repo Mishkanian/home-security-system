@@ -79,14 +79,7 @@ When using an iPhone hotspot, **Maximize Compatibility** must be enabled to allo
 
 ---
 
-## Example Outputs  
-Add serial logs or screenshots in a folder such as `outputs/`.
-
-
----
-
 ## Memory Usage  
-Update with actual numbers from CubeIDE analysis:  
 - **Total memory used:** ___  
 - **Max task stack usage:** ___  
 
