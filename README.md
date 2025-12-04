@@ -1,7 +1,5 @@
 # Home Security System  
-**Michael Mishkanian**  
-ECEN 501 Embedded Systems  
-Fall 2025  
+Author: **Michael Mishkanian**  
 
 ---
 
@@ -86,13 +84,6 @@ When using an iPhone hotspot, **Maximize Compatibility** must be enabled to allo
 ## Example Outputs  
 Add serial logs or screenshots in a folder such as `outputs/`.
 
----
-
-## Challenges and Solutions  
-- **Thread creation failure:** Fixed by increasing FreeRTOS heap to 40000 bytes  
-- **LED timer interference from WiFi module:** Fixed by raising FreeRTOS timer task priority  
-- **Hotspot connection issues:** Required enabling Maximize Compatibility  
-- **Task freezes due to stack limits:** Solved by increasing task stack sizes  
 
 ---
 
@@ -103,8 +94,11 @@ Update with actual numbers from CubeIDE analysis:
 
 ---
 
-## Conclusion  
-Using everything learned in ECEN 501, this project became a complete RTOS-based system. Debugging heap size issues, stack limits, timer starvation, and driver interactions gave practical experience in building an embedded system that feels like a real device rather than a lab exercise.
+## Challenges and Solutions  
+- **Thread creation failure:** Fixed by increasing FreeRTOS heap to 40000 bytes  
+- **LED timer interference from WiFi module:** Fixed by raising FreeRTOS timer task priority  
+- **Hotspot connection issues:** Required enabling Maximize Compatibility  
+- **Task freezes due to stack limits:** Solved by increasing task stack sizes  
 
 ---
 
@@ -112,7 +106,3 @@ Using everything learned in ECEN 501, this project became a complete RTOS-based 
 - ECEN 501 course materials by Dr. Radhika Grover  
 - STM32L4 HAL documentation (UM1884)  
 
----
-
-## Code  
-Add your GitHub repository URL here.
