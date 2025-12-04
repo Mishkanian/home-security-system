@@ -6,8 +6,6 @@ Author: **Michael Mishkanian**
 ## Overview  
 This project implements a simple home security system using FreeRTOS on the STM32L475E-IOT01A Discovery Board. The system has three states: **Disarmed**, **Armed**, and **Alarm**. Motion detected while in Armed mode triggers a countdown before entering Alarm mode. The system state is also available over WiFi through a small web interface.
 
-This project was completed for ECEN 501 under the guidance of Dr. Radhika Grover at Santa Clara University.
-
 ---
 
 ## Features
