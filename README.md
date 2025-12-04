@@ -6,7 +6,6 @@ Author: **Michael Mishkanian**
 ## Overview  
 This project implements a simple home security system using FreeRTOS on the STM32L475E-IOT01A Discovery Board. The system has three states: **Disarmed**, **Armed**, and **Alarm**. Motion detected while in Armed mode triggers a countdown before entering Alarm mode. The system state is also available over WiFi through a small web interface.
 
----
 
 ## Features
 
@@ -39,7 +38,6 @@ The web page allows users to:
 
 When using an iPhone hotspot, **Maximize Compatibility** must be enabled to allow the board to connect.
 
----
 
 ## Technologies Used  
 - **Board:** STM32L475E-IOT01A  
@@ -49,7 +47,6 @@ When using an iPhone hotspot, **Maximize Compatibility** must be enabled to allo
 - **Serial Debugging:** PuTTY at 115200 baud  
 - **Host System:** MacBook Air M2, macOS 14.0  
 
----
 
 ## Architecture
 
@@ -70,20 +67,17 @@ When using an iPhone hotspot, **Maximize Compatibility** must be enabled to allo
 - **Thread Flags:** Fast event signaling  
 - **Semaphore:** Protects shared variables  
 
----
 
 ## LED Behavior  
 - **DISARMED:** Green LED off  
 - **ARMED:** Green LED solid  
 - **ALARM:** Orange or Blue LEDs blinking  
 
----
 
 ## Memory Usage  
 - **Total memory used:** ___  
 - **Max task stack usage:** ___  
 
----
 
 ## Challenges and Solutions  
 - **Thread creation failure:** Fixed by increasing FreeRTOS heap to 40000 bytes  
@@ -91,7 +85,6 @@ When using an iPhone hotspot, **Maximize Compatibility** must be enabled to allo
 - **Hotspot connection issues:** Required enabling Maximize Compatibility  
 - **Task freezes due to stack limits:** Solved by increasing task stack sizes  
 
----
 
 ## References  
 - ECEN 501 course materials by Dr. Radhika Grover  
