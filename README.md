@@ -75,8 +75,8 @@ When using an iPhone hotspot, **Maximize Compatibility** must be enabled to allo
 
 
 ## Memory Usage  
-- **Total memory used:** ___  
-- **Max task stack usage:** ___  
+- **Total memory used by this application:** 49216 bytes  
+- **Max task stack usage (WiFi Task):** 4096 bytes
 
 
 ## Challenges and Solutions  
