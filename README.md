@@ -71,7 +71,7 @@ When using an iPhone hotspot, **Maximize Compatibility** must be enabled to allo
 ## LED Behavior  
 - **DISARMED:** Green LED off  
 - **ARMED:** Green LED solid  
-- **ALARM:** Orange or Blue LEDs blinking  
+- **ALARM:** Red LED blinking  
 
 
 ## Memory Usage  
