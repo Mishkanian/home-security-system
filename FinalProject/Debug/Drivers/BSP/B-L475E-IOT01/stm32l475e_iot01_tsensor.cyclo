@@ -1,0 +1,2 @@
+../Drivers/BSP/B-L475E-IOT01/stm32l475e_iot01_tsensor.c:50:10:BSP_TSENSOR_Init	1
+../Drivers/BSP/B-L475E-IOT01/stm32l475e_iot01_tsensor.c:75:7:BSP_TSENSOR_ReadTemp	1
